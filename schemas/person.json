@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "ValidatePersonData",
+  "type": "object",
+  "properties": {
+    "age": { "type": "integer" },
+    "height": { "type": "integer" },
+    "income": { "type": "integer" },
+    "weight": { "type": "integer" }
+  },
+  "required": ["age", "height", "weight"]
+}
